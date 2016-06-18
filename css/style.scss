@@ -1,0 +1,17 @@
+@import "reset";
+@import "fonts";
+@import "sprite";
+
+body{
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.clear{
+  clear: both;
+  float: none;
+  display: block;
+}
+
+.thorn{
+  @include sprite($thorn);
+}
